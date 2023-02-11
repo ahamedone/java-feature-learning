@@ -1,7 +1,7 @@
 class RunnableThread implements Runnable {
 	Thread t;
 	RunnableThread(){
-		t = new Thread(this, "Runnable Thread");
+		t = new Thread(this);
 		System.out.println("Runnable thread created : " + t);
 	}
 
